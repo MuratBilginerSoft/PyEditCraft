@@ -13,17 +13,28 @@ init(autoreset=True)
 
 class UserPromt:
 
+
+    # region DocString
+
+    """
+
+    
+        
+    """
+
+    # endregion
+
     # region Init
     def __init__(self) -> None:
 
         self.FindTextSelectLines = FindTextSelectLine()
         self.FindTextDeleteLines = FindTextDeleteLine()
         self.RemoveTextInFiles = RemoveTextInFile()
-        self.ReverseLines = ReverseLine()
-        self.TxtToExcels = TxtToExcel()
         self.SelectLanguages = SelectLanguage()
         self.PrintTerminals = PrintTerminal()
-
+        self.ReverseLines = ReverseLine()
+        self.TxtToExcels = TxtToExcel()
+        
         self.__language = None
         self.__Messages = None
         
@@ -31,13 +42,15 @@ class UserPromt:
     # endregion
 
     # region Main
-
     def main(self):
 
         self.changeLanguage()    
         choice = self.choiceProcess()
         self.process(choice)
-        
+
+    # endregion
+    
+    # region Change Language    
     def changeLanguage(self):
 
         self.__language = SelectLanguage.language
@@ -49,6 +62,10 @@ class UserPromt:
         else:
             self.__Messages = EngMessages()
     
+    # endregion
+
+    # region Choice Process
+
     def choiceProcess(self):
 
         print()
@@ -75,6 +92,9 @@ class UserPromt:
 
         return choice
 
+    # endregion
+
+    # region Process
     def process(self, choice):
 
         if choice == '1':

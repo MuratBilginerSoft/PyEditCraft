@@ -1,0 +1,80 @@
+ 1 – React Eğitimine Giriş 2 – React Nasıl Doğdu?Hikayesi İle Beraber…
+ 3 – React’in Temelleri 1 – Component Mantığını Anlamak
+ 4 – React’in Temelleri 2 – Yeni Kodlama Yaklaşımı JSX
+ 5 – React’in Temelleri 3 – Real DOM ve Virtual DOM Yaklaşımı
+ 6 – React’in Temelleri 4 – State Kavramı
+ 7 – Node JS Nedir ve Node JS Kurulumu Nasıl Yapılır?
+ 8 – React İçin Kullanılabilecek Paket Yöneticileri NPM – PNPM – Yarn
+ 9 – Single Page Application’ı Anlamak
+ 10 – React Eğitimi Sözlüğü
+ 11 – React Projesi Oluşturma
+ 11 – React Klasör Yapısı
+ 12 – package.json Dosyası Neden Var Neler Yapabiliyor?
+ 13 – index.html Dosyasını Anlamak
+ 14 – index.js Dosyasını Anlamak
+ 15 – App.js Dosyasını ve Component Oluşturma Mantığını Anlamak
+ 16 – React Projesini Çalıştırmak – İlk Ayarlar ve Önemli Scriptler
+ 17 – React’in Standart Verdiği Ama Kaldırabileceğimiz Dosyalar ve Kurulacak Extension’lar
+ 18 – Hello World ve İlk Custom Component’in Yazılması
+ 19 – React İle Style Kullanımı(Inline Css)
+ 20 – React İle CSS Kullanımı
+ 21 – JSX İçinde JavaScript Kodlarının ve Değişkenlerin Kullanımı
+ 22 – Component Hiyerarşisini Anlamak
+ 23 – Componentler Arası İletişim – Properties(Props) Kavramı 1
+ 24 – Props 2 – (Proje)
+ 25 – Props 3 – Children Özelliği
+ 26 – Event Kavramı ve Olayların Gücü 1
+ 27 – Event Kavramı ve Olayların Gücü 2 (Proje)
+ 28 – Hooks Kavramı
+ 29 – useState Hook’u 1 – Sayfa Dinamizmi Başlıyor
+ 30 – useState Hook’u 2 – Birden Fazla State Kontrolü
+ 31 – useState Hook’u 3 – Spread Operatörü İle State Kontrolü
+ 32 – useState Hook’u 4 – Previous State Operatörü İle State Kontrolü
+ 33 – Two-Way Binding Olayı
+ 34 – Performans İçin Key Özelliği
+ 35 – Conditional Rendering Olayı
+ 36 – Icon Set Kullanımı & Delete Operation
+ 37 – Componentler Arası İletişim – (Proje)
+ 38 – Fragment Kavramı
+ 39 – Ref Attribute’u ve useRef() Hook’u
+ 40 – Controlled ve Uncontrolled Componentler
+ 41 – useEffect Hook’u 1 – Kavramsal Olarak Side Effect
+ 42 – useEffect Hook’u 2 – No Dependencies
+ 43 – useEffect Hook’u 3 – With Dependecies
+ 44 – useEffect Hook’u 4 – CleanUp Fonksiyonu
+ 45 – useReducer Hook’u 1 – Kavramsal Olarak useReducer
+ 46 – useReducer Hook’u 2 – useReducer Kullanımı – (Shop Project)
+ 47 – useContext Hook’u 1 – Local ve Global State Yönetimini Anlamak
+ 48 – useContext Hook’u 2 – State Kontrol Araçları
+ 49 – useContext Hook’u 3 – Context API Nedir?
+ 50 – useContext Hook’u 4 – useContext Kullanımı
+ 51 – useContext Hook’u 5 – Context Klasör Mimarisinin Oluşturulması
+ 52 – useContext Hook’u 6 – Birden Fazla useContext Oluşturma
+ 53 – useContext Hook’u 7 – Context API Avantajları ve Dezavantajları
+ 54 – Optimizasyon Teknikleri 1 – React.memo() Fonksiyonu
+ 55 – Optimizasyon Teknikleri 2 – useCallback Hook’u
+ 56 – Optimizasyon Teknikleri 3 – useMemo Hook’u
+ 57 – API İşlemleri 1 – Fetch API Nedir?
+ 58 – API İşlemleri 2 – PlaceholderJson Fake Rest API Nedir?
+ 59 – API İşlemleri 3 – Projenin Oluşturulması
+ 60 – API İşlemleri 4 – Fetch API Get İsteği
+ 61 – API İşlemleri 5 – Fetch API Get İsteği – async await İle Kullanım
+ 62 – API İşlemleri 6 – Fetch API Get İsteği – Loading State Yönetimi
+ 63 – API İşlemleri 7 – Fetch API Get İsteği – Error State Yönetimi
+ 64 – API İşlemleri 8 – Fetch API Get – Parametre Kullanarak
+ 65 – API İşlemleri 9 – Fetch API Get – Query Params Kullanarak
+ 66 – API İşlemleri 10 – Fetch API Post Metodu Kullanımı
+ 67 – API İşlemleri 11 – Fetch API Put & Patch Metodu Kullanımı
+ 68 – API İşlemleri 12 – Fetch API Delete Metodu Kullanımı
+ 69 – Router 1 – Single Page Application(SPA) Nedir?
+ 70 – Router 2 – React-Router-Dom Kütüphanesi Kurulumu ve Detaylar
+ 71 – Router 3 – createBrowserRoute İle Route Oluşturma
+ 72 – Router 4 -createRoutesFromElements İle Route Oluşturma
+ 73 – Router 5 -BrowserRouter Component’i İle Route Oluşturma
+ 74 – Router 6 -BrowserRouter Component’i İle Route Klasör Yapısını Oluştur
+ 75 – Router 7 – Link Component’i İle Sayfalar Arasında Gezinme
+ 76 – Router 8 – Hata Sayfalarını Yönetme
+ 77 – Router 9 – NavLink Component’i İle Active Sayfanın Gösterimi
+ 78 – Router 10 – useNavigate & useParams Hook Kullanımı
+ 79 – Router 11 – Dinamik Url’ler İçin Route Oluşturma – :paramName
+ 80 – Router 12 – Dinamik Url’ler İçin Route Oluşturma – Query Param

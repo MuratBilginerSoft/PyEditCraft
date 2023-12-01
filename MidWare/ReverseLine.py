@@ -1,5 +1,21 @@
 class ReverseLine:
 
+    # region DocString
+
+    """
+
+    This module, ReverseLine, is responsible for reversing the lines in a file.
+
+    It provides a function to read a file, reverse the order of lines, and write the result back to the file.
+
+    Usage:
+        import ReverseLine
+        ReverseLine.reverse_lines("example.txt")
+
+    """
+
+    # endregion
+
     # region Init
 
     def __init__(self) -> None:

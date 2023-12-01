@@ -8,14 +8,42 @@ from colorama import init, Fore
 init(autoreset=True)
 class SelectLanguage:
 
+    # region DocString
+
+    """
+
+    This module, SelectLanguage, is responsible for handling the language selection in the application.
+
+    It provides two main functions:
+
+        - `load_language_from_file`: This function reads the current language setting from a configuration file.
+        - `change_language`: This function changes the current language setting and saves it to the configuration file.
+
+    Usage:
+        import SelectLanguage
+        language = SelectLanguage.main()
+        SelectLanguage.setLanguageJson("Türkçe")
+
+    """
+
+    # endregion
+
+    # region Class Variables
+
     language = None
+
+    # endregion
+
+    # region Init
 
     def __init__(self):
         
         self.__pyConfigPath = 'Utils/Config/PyConfig.json'
         self.PrintTerminals = PrintTerminal()   
 
+    # endregion
 
+    # region Main
     def main(self):
 
         if SelectLanguage.language == 'English':
@@ -55,6 +83,10 @@ class SelectLanguage:
         else:
             print(self.__endMessage)
 
+    # endregion
+
+    # region Set Language Json
+
     def setLanguageJson(self, language):
 
         with open(self.__pyConfigPath, 'r+', encoding='utf-8') as f:
@@ -67,3 +99,5 @@ class SelectLanguage:
         
         SelectLanguage.language = language
         print(SelectLanguage.language)
+    
+    # endregion

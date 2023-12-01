@@ -1,5 +1,24 @@
 class FindTextDeleteLine:
 
+    # region DocString
+
+    """
+    
+    This module contains the functionality to manipulate text files. 
+
+    It includes functions to read from a file, find specific text, and delete lines. 
+
+    The main function orchestrates these operations based on user input.
+
+    Usage:
+
+        import FindTextDeleteLine
+        FindTextDeleteLine.main()
+        
+    """
+
+    # endregion
+
     # region Init
 
     def __init__(self) -> None:
